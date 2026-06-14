@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "ClearLine Removal Services"
+version = "1.0.0"
+id = "artifacts/clearline"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25157
+
+[services.development]
+run = "pnpm --filter @workspace/clearline run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/clearline", "run", "build" ]
+publicDir = "artifacts/clearline/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25157"
+BASE_PATH = "/"
