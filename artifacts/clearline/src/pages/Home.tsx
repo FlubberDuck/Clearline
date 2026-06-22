@@ -341,9 +341,9 @@ export default function Home() {
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mb-12">
-              <a href="tel:08002461010" className="flex items-center gap-3 text-2xl font-bold hover:text-[#4a9c3a] transition-colors">
+              <a href="tel:08002494368" className="flex items-center gap-3 text-2xl font-bold hover:text-[#4a9c3a] transition-colors">
                 <Phone className="w-8 h-8 text-[#4a9c3a]" />
-                0800 246 1010
+                0800 2494368
               </a>
               <span className="hidden sm:block text-gray-600 text-3xl font-light">/</span>
               <a href="tel:07304142128" className="flex items-center gap-3 text-2xl font-bold hover:text-[#4a9c3a] transition-colors">

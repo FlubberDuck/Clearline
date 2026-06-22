@@ -51,7 +51,7 @@ export const Footer: React.FC = () => {
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-[#4a9c3a] shrink-0 mt-0.5" />
                 <div>
-                  <div>0800 246 1010</div>
+                  <div>0800 2494368</div>
                   <div>07304 142128</div>
                 </div>
               </li>
